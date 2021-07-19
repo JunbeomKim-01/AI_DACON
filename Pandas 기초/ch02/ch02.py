@@ -12,7 +12,7 @@ data
 data_dict={'도시':city, '인구수':population}
 data_dict
 data=pd.DataFrame(data_dict)
-data임
+data
 
 data.to_csv("/content/drive/MyDrive/pandas/data02.csv",index=False)#index요소 안보
 pd.read_csv("/content/drive/MyDrive/pandas/data02.csv")
